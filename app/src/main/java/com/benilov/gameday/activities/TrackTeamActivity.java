@@ -1,4 +1,4 @@
-package com.benilov.gameday;
+package com.benilov.gameday.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,6 +16,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.benilov.gameday.R;
+import com.benilov.gameday.models.Game;
+import com.benilov.gameday.models.Team;
+import com.benilov.gameday.models.TeamTracker;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;

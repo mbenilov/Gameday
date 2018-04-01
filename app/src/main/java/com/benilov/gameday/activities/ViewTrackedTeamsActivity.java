@@ -1,4 +1,4 @@
-package com.benilov.gameday;
+package com.benilov.gameday.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.benilov.gameday.R;
+import com.benilov.gameday.models.TeamTracker;
 
 public class ViewTrackedTeamsActivity extends AppCompatActivity {
     TeamTracker tracker;

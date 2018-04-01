@@ -1,4 +1,4 @@
-package com.benilov.gameday;
+package com.benilov.gameday.models;
 
 /**
  * POJO to store NBA team

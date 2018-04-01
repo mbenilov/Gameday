@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NBA Data Endpoints -->
+    <string name="teamDataEndpoint">http://data.nba.net/prod/v1/2017/teams.json</string>
+    <string name="gameDataEndpoint">http://data.nba.net/prod/v1/2017/schedule.json</string>
+</resources>

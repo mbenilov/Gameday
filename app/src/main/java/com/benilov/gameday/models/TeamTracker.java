@@ -1,4 +1,4 @@
-package com.benilov.gameday;
+package com.benilov.gameday.models;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * A Singleton class which contains the users tracked teams
  */
 
-class TeamTracker {
+public class TeamTracker {
 
     private List<Team> trackingList = null;
 
